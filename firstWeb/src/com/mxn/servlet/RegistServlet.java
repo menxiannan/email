@@ -25,6 +25,7 @@ public class RegistServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         try {
+            //提交
             //接受数据
             //中文乱码
             request.setCharacterEncoding("UTF-8");
