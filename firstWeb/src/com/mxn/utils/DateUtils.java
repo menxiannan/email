@@ -14,6 +14,7 @@ public class DateUtils {
 
 
     public static String getFormatDate(Date formatDate) {
+
         if (null != formatDate) {
             SimpleDateFormat sdf = new SimpleDateFormat(ONE);
             return sdf.format(formatDate);
